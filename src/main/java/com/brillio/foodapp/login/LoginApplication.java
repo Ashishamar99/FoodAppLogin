@@ -12,7 +12,6 @@ public class LoginApplication {
 		BCryptPasswordEncoder bCrypt = new BCryptPasswordEncoder();
 		System.out.println(bCrypt.encode("1234"));
 		System.out.println(bCrypt.encode("admin"));
-		//Adding this change to dev branch to trigger the webhook.
 	}
 
 }
